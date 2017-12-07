@@ -2,7 +2,7 @@ require 'net/http'
 
 require 'ruby_clx/configuration'
 
-class RubyClx
+class RailsClx
   class << self
     attr_accessor :configuration
 
@@ -18,7 +18,7 @@ class RubyClx
   end
 
   def config
-    @config ||= RubyClx.configuration.dup
+    @config ||= RailsClx.configuration.dup
   end
 
   def send(from:, to:, text:)

@@ -1,4 +1,4 @@
-class RubyClx
+class RailsClx
   class Configuration
     attr_accessor :host,
                   :port,

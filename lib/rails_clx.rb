@@ -1,6 +1,6 @@
 require 'net/http'
 
-require 'ruby_clx/configuration'
+require 'rails_clx/configuration'
 
 class RailsClx
   class << self

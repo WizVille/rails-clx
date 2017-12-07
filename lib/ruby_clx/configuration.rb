@@ -6,6 +6,7 @@ class RubyClx
                   :password,
                   :dlr_mask,
                   :dlr_url,
-                  :sms_message_id
+                  :sms_message_id,
+                  :coding
   end
 end
